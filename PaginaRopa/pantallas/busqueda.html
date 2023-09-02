@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/materialize.css"
+      media="screen,projection"
+    />
+    <link rel="stylesheet" href="../css/busqueda.css" />
+    <!-- JS -->
+    <script defer type="text/javascript" src="../js/materialize.js"></script>
+    <title>Resultados | MODA LEON 🦁</title>
+  </head>
+  <body>
+    <nav class="barra-nav">
+      <div class="nav-wrapper">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li id="checkbox-container">
+            <label>
+              <input type="checkbox" />
+              <span>Hombre</span>
+            </label>
+            <label>
+              <input type="checkbox" />
+              <span>Mujer</span>
+            </label>
+            <label>
+              <input type="checkbox" />
+              <span>Niño</span>
+            </label>
+            <label>
+              <input type="checkbox" />
+              <span>Sin genero</span>
+            </label>
+          </li>
+          <li>
+            <button
+              class="waves-effect waves-light btn boton-barra"
+              type="submit"
+              name="action"
+              id="boton-regresar"
+            >
+              <a href="../index.html">Regresar</a>
+            </button>
+            <button
+              class="waves-effect waves-light btn boton-barra white-text"
+              type="submit"
+              name="action"
+            >
+              Buscar
+            </button>
+            <input type="text" id="entrada-texto" placeholder="Busqueda" />
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav">
+      <!-- Mismo contenido el ul de arriba-->
+    </ul>
+    <main>
+      <div class="container" id="contenedor-tarjetas">
+        <div class="row">
+          <div class="col l2 tarjeta">
+            <img src="../recursos/ropa.svg" />
+            <h1>Titulo</h1>
+            <p>Descripcion con precio</p>
+          </div>
+          <div class="col l2 tarjeta">
+            <img src="../recursos/ropa.svg" />
+            <h1>Titulo</h1>
+            <p>Descripcion con precio</p>
+          </div>
+          <div class="col l2 tarjeta">
+            <img src="../recursos/ropa.svg" />
+            <h1>Titulo</h1>
+            <p>Descripcion con precio</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

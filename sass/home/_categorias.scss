@@ -1,0 +1,20 @@
+@use "../utilidades" as *;
+#categorias {
+    margin-top: 20px;
+    div[id^="categoria-"] {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 20px;
+        h1 {
+            font-family: "Archivo";
+            font-weight: normal;
+            font-size: 5rem;
+            color: $color-terciario;
+            text-shadow: 2px 2px $color-primario;
+        }
+        button[id^="btn-categoria-"] {
+            @extend .base-boton
+        }
+    }
+}

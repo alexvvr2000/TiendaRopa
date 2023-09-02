@@ -1,0 +1,47 @@
+$color-fondo: #181818;
+$color-primario: #0a4d31;
+$color-secundario: #aa9465;
+$color-terciario: #d6d8d5;
+:root {
+  background-color: $color-fondo;
+  padding: 20px;
+}
+.tam-icono {
+    font-size: 2.5rem !important;
+}
+.formato-busqueda {
+    background-color: $color-terciario;
+    color: black !important;
+    border-radius: 20px;
+    font-family: "Lato";
+    font-weight: normal;
+    text-align: center;
+    width: 400px;
+    .input-field input[type=text]:focus {
+        border-bottom: 0.5rem solid $color-secundario !important;
+    }
+    .tam-icono {
+        font-size: 2.5rem !important;
+    } 
+    &::placeholder {
+        color: lighten($color-fondo, 30);
+        opacity: 1; /* Firefox */
+    }
+}
+.barra-nav {
+    border-radius: 25px;
+    background-color: $color-primario;
+    font-family: "Archivo";
+    font-weight: bold;
+}
+.base-boton {
+    border-radius: 2rem;
+    color: $color-fondo ;
+    transition: .2s ease-in-out 0s;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.01);
+        color: $color-terciario;   
+        font-weight: bold;
+    }
+}

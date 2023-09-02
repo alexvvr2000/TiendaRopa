@@ -1,0 +1,141 @@
+:root {
+  background-color: #181818;
+  padding: 20px;
+}
+
+.tam-icono {
+  font-size: 2.5rem !important;
+}
+
+.formato-busqueda {
+  background-color: #d6d8d5;
+  color: black !important;
+  border-radius: 20px;
+  font-family: "Lato";
+  font-weight: normal;
+  text-align: center;
+  width: 400px;
+}
+.formato-busqueda .input-field input[type=text]:focus {
+  border-bottom: 0.5rem solid #aa9465 !important;
+}
+.formato-busqueda .tam-icono {
+  font-size: 2.5rem !important;
+}
+.formato-busqueda::-moz-placeholder {
+  color: #656565;
+  opacity: 1; /* Firefox */
+}
+.formato-busqueda::placeholder {
+  color: #656565;
+  opacity: 1; /* Firefox */
+}
+
+.barra-nav {
+  border-radius: 25px;
+  background-color: #0a4d31;
+  font-family: "Archivo";
+  font-weight: bold;
+}
+
+.base-boton, #categorias div[id^=categoria-] button[id^=btn-categoria-] {
+  border-radius: 2rem;
+  color: #181818;
+  transition: 0.2s ease-in-out 0s;
+}
+.base-boton:hover, #categorias div[id^=categoria-] button[id^=btn-categoria-]:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  color: #d6d8d5;
+  font-weight: bold;
+}
+
+#barra-nav {
+  border-radius: 25px;
+  background-color: #0a4d31;
+  font-family: "Archivo";
+  font-weight: bold;
+}
+
+#categorias {
+  margin-top: 20px;
+}
+#categorias div[id^=categoria-] {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+}
+#categorias div[id^=categoria-] h1 {
+  font-family: "Archivo";
+  font-weight: normal;
+  font-size: 5rem;
+  color: #d6d8d5;
+  text-shadow: 2px 2px #0a4d31;
+}
+.page-footer {
+  border-radius: 1rem;
+  position: relative;
+  top: 0.4rem;
+}
+
+span[id^=red-] {
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+/* Archivo Black */
+@font-face {
+  font-family: "Archivo";
+  src: url("../recursos/fuentes/Archivo/ArchivoBlack-Regular.ttf");
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../recursos/fuentes/Archivo/ArchivoNarrow-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../recursos/fuentes/Archivo/ArchivoNarrow-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../recursos/fuentes/Archivo/ArchivoNarrow-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../recursos/fuentes/Archivo/ArchivoNarrow-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+/* Lato */
+@font-face {
+  font-family: "Lato";
+  src: url("../recursos/fuentes/lato/Lato-Regular.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../../recursos/fuentes/lato/Lato-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../recursos/fuentes/lato/Lato-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../recursos/fuentes/lato/Lato-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}/*# sourceMappingURL=home.css.map */

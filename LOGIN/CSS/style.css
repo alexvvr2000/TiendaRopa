@@ -1,0 +1,7 @@
+/* DEFINIMOS CLASE DEL COLOR DE FONDO*/
+.bodyLogin {
+
+    background: rgb(31,64,55);
+    background: linear-gradient(90deg, rgba(31,64,55,1) 0%, rgba(141,221,183,1) 100%);
+
+}

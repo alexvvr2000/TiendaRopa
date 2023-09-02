@@ -1,0 +1,7 @@
+@use "../utilidades" as *;
+#barra-nav {
+    border-radius: 25px;
+    background-color: $color-primario;
+    font-family: "Archivo";
+    font-weight: bold;
+}
